@@ -1,0 +1,63 @@
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-image {
+    width: 10.16375em;
+    height: 2.25em;
+    top: 1.5em;
+    gap: 0em;
+    opacity: 0em;
+}
+
+.camera-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+    height: 3.5em;
+    margin-top: 2.25em;
+}
+
+.camera-heading {
+    margin: 0;
+    font-size: 1.375em;
+    font-weight: 500;
+    color: #111827;
+    line-height: 1.625em;
+    text-align: left;
+}
+
+.camera-text {
+    margin: "0.25em 0em 0em 0em";
+    font-size: 0.875em;
+    font-weight: 400;
+    color: #545454;
+    line-height: 1.05875em;
+    text-align: left;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 0.5em 0.5em 0.5em 0.75em;
+    border-radius: 0.375em;
+    border: 1px solid #f0f0f0;
+    font-size: 0.875em;
+    width: 15em;
+    background-color: #f3f3f4;
+}
+
+.search-input-icon {
+    position: absolute;
+    left: 12.25em;
+    width: 1.25em;
+    height: 1.25em;
+    background-color: #f3f3f4;
+    cursor: pointer;
+}

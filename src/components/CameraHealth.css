@@ -1,0 +1,27 @@
+.camera-health {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.health-a {
+    background-color: #029262;
+}
+
+.health-b {
+    background-color: #ff7e17;
+}
+
+.health-default {
+    background-color: #a0a0a0;
+}
+
+.health-muted {
+    color: #6b7280;
+}
